@@ -87,13 +87,16 @@
         }
 
         // 获取并处理 URL 查询参数
-        let link = removeHashFromEnd(window.location.href.split('?')[1]);
+        console.log(`window.location.href[${window.location.href}]`)
         let link1 = 'home.md';
-        if (link != 'undefined' && link != 'abcShop') {
-            if (link == 'abcImage') {
-                link = 'abcimage'
+        if(window.location.href.includes("?")){
+            let link = removeHashFromEnd(window.location.href.split('?')[1]);
+            if (link !== 'undefined' && link !== 'abcShop') {
+                if (link === 'abcImage') {
+                    link = 'abcimage'
+                }
+                link1 = '01/' + link + '.md';
             }
-            link1 = '01/' + link + '.md';
         }
 
         // 配置 docsify 选项
