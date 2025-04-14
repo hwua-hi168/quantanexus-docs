@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="vue.css" />
+    <style>
+        /* 模态框样式 */
+        #modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        #modal.active {
+            display: flex;
+        }
+
+        #modalImg {
+            max-width: 90%;
+            max-height: 90%;
+            transition: transform 0.2s;
+            cursor: grab;
+        }
+
+        #modalImg.grabbing {
+            cursor: grabbing;
+        }
+
+        #closeBtn {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* 移除控制按钮 */
+        /*
+        .controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .controls button {
+            background: rgba(255,255,255,0.5);
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <div data-app id="main">加载中......</div>
+
+    <!-- 模态框结构 -->
+    <div id="modal">
+        <span id="closeBtn">&times;</span>
+        <img id="modalImg" src="" alt="放大图片">
+    </div>
+
+    <script>
+        function removeHashFromEnd(str) {
+            if (str.endsWith('#/')) {
+                return str.slice(0, -2);
+            } else {
+                return str;
+            }
+        }
+
+        // 获取并处理 URL 查询参数
+        let link = removeHashFromEnd(window.location.href.split('?')[1]);
+        let link1 = 'home.md';
+        if (link != 'undefined' && link != 'abcShop') {
+            if (link == 'abcImage') {
+                link = 'abcimage'
+            }
+            link1 = '01/' + link + '.md';
+        }
+
+        // 配置 docsify 选项
+        window.$docsify = {
+            basePath: '../',
+            themeColor: '#990066',
+            el: '#main',
+            homepage: link1,
+            notFoundPage: true,
+            loadNavbar: '_navbar.md',
+            loadSidebar: '_sidebar.md',
+            alias: {
+                '/.*/_navbar.md': '/_navbar.md',
+            },
+            subMaxLevel: 4,
+            repo: ''
+        }
+
+        // 初始化模态框功能
+        let initialize = () => {
+            const images = document.querySelectorAll('img');
+            const modal = document.getElementById('modal');
+            const modalImg = document.getElementById('modalImg');
+            const closeBtn = document.getElementById('closeBtn');
+
+            let scale = 1;
+            let isDragging = false;
+            let startX, startY, initialMouseX, initialMouseY;
+            let translateX = 0, translateY = 0;
+
+            // 打开模态框并设置图片源
+            function openModal(src) {
+                modal.style.display = 'flex';
+                modalImg.src = src;
+                scale = 1;
+                translateX = 0;
+                translateY = 0;
+                modalImg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+                modal.classList.add('active');
+                modalImg.style.cursor = 'grab';
+            }
+
+            // 关闭模态框
+            function closeModal() {
+                modal.style.display = 'none';
+                modal.classList.remove('active');
+                modalImg.style.cursor = 'grab';
+            }
+
+            // 鼠标滚轮缩放
+            modalImg.onwheel = function (e) {
+                e.preventDefault(); // 阻止默认滚动行为
+                const delta = Math.sign(e.deltaY);
+                const zoomFactor = delta > 0 ? 0.9 : 1.1;
+                scale *= zoomFactor;
+                if (scale < 0.1) scale = 0.1;
+                if (scale > 5) scale = 5;
+                updateScale();
+            }
+
+            // 鼠标按下开始拖动
+            modalImg.onmousedown = function (e) {
+                isDragging = true;
+                startX = e.clientX - translateX;
+                startY = e.clientY - translateY;
+                modalImg.style.cursor = 'grabbing';
+                // 阻止默认行为，防止选中文本或打开新页面
+                e.preventDefault();
+            }
+
+            window.onmousemove = function (e) {
+                if (!isDragging) return;
+                translateX = e.clientX - startX;
+                translateY = e.clientY - startY;
+                updateScale();
+            }
+
+            window.onmouseup = function () {
+                if (isDragging) {
+                    isDragging = false;
+                    modalImg.style.cursor = 'grab';
+                }
+            }
+
+            // 触摸设备拖动支持（可选）
+            modalImg.ontouchstart = function (e) {
+                if (e.touches.length === 1) {
+                    isDragging = true;
+                    const touch = e.touches[0];
+                    startX = touch.clientX - translateX;
+                    startY = touch.clientY - translateY;
+                    modalImg.style.cursor = 'grabbing';
+                    e.preventDefault();
+                }
+            }
+
+            window.ontouchmove = function (e) {
+                if (!isDragging || e.touches.length !== 1) return;
+                const touch = e.touches[0];
+                translateX = touch.clientX - startX;
+                translateY = touch.clientY - startY;
+                updateScale();
+            }
+
+            window.ontouchend = function () {
+                if (isDragging) {
+                    isDragging = false;
+                    modalImg.style.cursor = 'grab';
+                }
+            }
+
+            // 更新缩放和位移
+            function updateScale() {
+                modalImg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+            }
+
+            // 点击图片打开模态框
+            images.forEach(img => {
+                img.addEventListener('click', function (e) {
+                    e.preventDefault(); // 阻止默认行为，如在新标签页中打开链接
+                    openModal(img.src);
+                });
+            });
+
+            // 关闭模态框事件
+            closeBtn.onclick = closeModal;
+
+            // 点击模态框外部区域关闭
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    closeModal();
+                }
+            }
+        };
+
+        // 延迟1秒后执行
+        setTimeout(() => {
+            initialize();
+
+            // 创建一个 MutationObserver 实例并传入回调函数
+            const observer = new MutationObserver(mutationsList => {
+                mutationsList.forEach(mutation => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
+                        // 重新获取图片并添加事件
+                        initialize();
+                        // 如果不再需要监听，可以断开观察
+                        // observer.disconnect();
+                    }
+                });
+            });
+
+            // 配置观察选项
+            const config = { attributes: true, attributeFilter: ['style'] };
+
+            // 获取所有具有 class "progress" 的元素
+            const progressElements = document.querySelectorAll('.progress');
+
+            if (progressElements.length > 0) {
+                progressElements.forEach(element => {
+                    observer.observe(element, config);
+                });
+            } else {
+                console.error('未找到具有类名 "progress" 的元素');
+            }
+        }, 1000); // 1秒后执行
+    </script>
+    <script src="docsify.min.js"></script>
+</body>
+
+</html>
