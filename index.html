@@ -65,10 +65,37 @@
             font-size: 24px;
         }
         */
+
+          /* 添加折叠样式 */
+        .sidebar-nav ul li {
+            list-style: none;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .sidebar-nav ul li ul {
+            display: none; /* 默认折叠子菜单 */
+            padding-left: 15px;
+        }
+
+        .collapse-btn {
+            position: absolute;
+            left: -15px;
+            top: 2px;
+            font-size: 10px;
+            transition: transform 0.2s;
+            padding-right: 5px;
+        }
+
+        /* 展开时旋转箭头 */
+        .collapse-btn[data-collapsed="false"] {
+            transform: rotate(90deg);
+        }
     </style>
 </head>
 
 <body>
+  
     <div data-app id="main">加载中......</div>
 
     <!-- 模态框结构 -->
@@ -112,7 +139,40 @@
                 '/.*/_navbar.md': '/_navbar.md',
             },
             subMaxLevel: 4,
-            repo: ''
+            repo: '',
+
+            subMaxLevel: 4, // 设置侧边栏嵌套层级
+            plugins: [
+            function(hook) {
+                hook.doneEach(function() {
+                // 添加折叠功能
+                let nodes = document.querySelectorAll('.sidebar-nav ul li');
+                nodes.forEach(node => {
+                    // 添加箭头图标
+                    if (node.querySelector('ul')) {
+                    const span = document.createElement('span');
+                    span.className = 'collapse-btn';
+                    span.innerHTML = '▶';
+                    node.insertBefore(span, node.firstChild);
+                    }
+
+                    // 点击事件
+                    node.addEventListener('click', function(e) {
+                    if (e.target.className === 'collapse-btn') {
+                        const ul = node.querySelector('ul');
+                        if (ul) {
+                        ul.style.display = ul.style.display === 'none' ? 'block' : 'none';
+                        e.target.style.transform = ul.style.display === 'none' 
+                            ? 'rotate(0deg)' 
+                            : 'rotate(90deg)';
+                        }
+                    }
+                    });
+                });
+                });
+            }
+            ]
+
         }
 
         // 初始化模态框功能
@@ -264,6 +324,7 @@
         }, 1000); // 1秒后执行
     </script>
     <script src="docsify.min.js"></script>
+  
 </body>
 
 </html>
