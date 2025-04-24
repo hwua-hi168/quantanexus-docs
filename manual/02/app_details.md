@@ -4,6 +4,7 @@
 ![alt text](../help_picture/02_myapp02.png)
 #### 2、修改配额
 ![alt text](../help_picture/02_myapp03.png)
+
 ![alt text](../help_picture/02_myapp04.png)
 #### 3、打开应用
 ![alt text](../help_picture/02_myapp05.png)

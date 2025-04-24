@@ -7,5 +7,7 @@
 ![alt text](../help_picture/01_appcentor04.png)
 #### 4、运行应用
 ![alt text](../help_picture/01_appcentor05.png)
+
 ![alt text](../help_picture/01_appcentor06.png)
+
 ![alt text](../help_picture/01_appcentor07.png)

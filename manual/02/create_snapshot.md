@@ -9,4 +9,5 @@
 
 **创建应用模板**：点击 “创建应用模板” 按钮，按照提示操作，可基于当前快照创建应用模板供后续使用。
 ![alt text](../help_picture/02_myapp06.png)
+
 ![alt text](../help_picture/02_myapp07.png)
