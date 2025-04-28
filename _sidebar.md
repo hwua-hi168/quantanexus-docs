@@ -61,12 +61,8 @@
     * [1、存储桶列表](./manual/12/storage_bucket_list.md)
     * [2、新建存储桶](./manual/12/create_storage_bucket.md)
     * [3、删除存储桶](./manual/12/delete_storage_bucket.md)
-    * [4、在线预览](./manual/12/online_preview.md)
-    * [5、复制文件/文件夹](./manual/12/copy.md)
-    * [6、移动文件/文件夹](./manual/12/move.md)
+    * [4、存储桶内容操作](./manual/12/storage_bucket_operate.md)
     * [7、分享文件](./manual/12/share.md)
-    * [8、下载文件/文件夹](./manual/12/download.md)
-    * [9、删除文件/文件夹](./manual/12/delete.md)
 <!-- * [十三、博客](01/abcBlog) -->
 * [十三、论坛](./manual/hi168_Forum.md)
     * [1、论坛板块](./manual/13/forum_section.md)
