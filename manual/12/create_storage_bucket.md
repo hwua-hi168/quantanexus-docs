@@ -1,11 +1,10 @@
-### 创建存储桶
-进入存储桶列表，可以通过多种方式创建存储桶，同时为存储桶在桌面上创建快捷方式。
+## 创建存储桶
+在存储桶列表页面中可以创建新的存储桶，也可以在桌面上创建存储桶，同时也可以为存储桶在桌面上创建一个快捷方式。
 
 **菜单创建**
 ![alt text](../help_picture/12_storagebucket02.png)
 
 ![alt text](../help_picture/12_storagebucket03.png)
-
 
 **右击创建**
 ![alt text](../help_picture/12_storagebucket04.png)
