@@ -68,3 +68,5 @@
     * [1、论坛板块](./manual/13/forum_section.md)
     * [2、板块详情](./manual/13/section_details.md)
     * [3、发帖子](./manual/13/post.md)
+*[附录]
+    * [1、计费规则](./manual/appendix/billing_rules.md)
