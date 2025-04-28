@@ -62,7 +62,7 @@
     * [2、新建存储桶](./manual/12/create_storage_bucket.md)
     * [3、删除存储桶](./manual/12/delete_storage_bucket.md)
     * [4、存储桶内容操作](./manual/12/storage_bucket_operate.md)
-    * [7、分享文件](./manual/12/share.md)
+    * [5、分享文件](./manual/12/share.md)
 <!-- * [十三、博客](01/abcBlog) -->
 * [十三、论坛](./manual/hi168_Forum.md)
     * [1、论坛板块](./manual/13/forum_section.md)
