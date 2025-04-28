@@ -68,5 +68,10 @@
     * [1、论坛板块](./manual/13/forum_section.md)
     * [2、板块详情](./manual/13/section_details.md)
     * [3、发帖子](./manual/13/post.md)
+* [十四、桌面中心](./manual/hi168_DesktopCenter.md)
+    * [1、个人信息](./manual/14/personal_information.md)
+    * [2、费用中心](./manual/14/cost_center.md)
+    * [3、云端互联](./manual/14/cloud_interconnection.md)
+    * [4、讨论](./manual/14/discuss.md)
 *[附录]
     * [1、计费规则](./manual/appendix/billing_rules.md)
