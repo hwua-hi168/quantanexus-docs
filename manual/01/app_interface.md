@@ -22,7 +22,8 @@ Hi168的应用分为虚拟机和容器两种类型，应用界面左侧的菜单
 
 ![alt text](../help_picture/01_appcentor14.png)
 
-**（4）挂载存储桶**：可以将创建的存储桶（桶中所有内容）挂载到应用环境中供用户使用。存储桶这部分在后面介绍。
+**（4）挂载存储桶**：可以将创建的存储桶（桶中所有内容）挂载到应用环境中供用户使用，存储桶可以参考“存储管理”模块的介绍。挂载存储桶请查看下面的虚拟机挂载。
+
 
 ![alt text](../help_picture/01_appcentor15.png)
 
@@ -46,7 +47,18 @@ Hi168的应用分为虚拟机和容器两种类型，应用界面左侧的菜单
 
 **（3）服务端口**：同上
 
-**（4）挂载存储桶**：同上
+**（4）挂载存储桶**：存储桶的创建参考“存储管理”模块的介绍。
+![alt text](../help_picture/01_appcentor19.png)
+
+![alt text](../help_picture/01_appcentor20.png)
+
+![alt text](../help_picture/01_appcentor21.png)
+
+![alt text](../help_picture/01_appcentor22.png)
+
+![alt text](../help_picture/01_appcentor23.png)
+
+![alt text](../help_picture/01_appcentor24.png)
 
 **（5）文件上传下载**：提供了trz和tsz命令进行文件的上传和下载。
 
