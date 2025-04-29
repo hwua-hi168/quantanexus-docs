@@ -73,5 +73,7 @@
     * [2、费用中心](./manual/14/cost_center.md)
     * [3、云端互联](./manual/14/cloud_interconnection.md)
     * [4、讨论](./manual/14/discuss.md)
+    * [5、帮助](./manual/14/help.md)
+    * [6、设置](./manual/14/set.md)
 *[附录]
     * [1、计费规则](./manual/appendix/billing_rules.md)
