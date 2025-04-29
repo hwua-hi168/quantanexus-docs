@@ -6,6 +6,8 @@
 
 ![alt text](../help_picture/12_storagebucket03.png)
 
+![alt text](../help_picture/12_storagebucket03-1.png)
+
 #### 2、右击创建
 ![alt text](../help_picture/12_storagebucket04.png)
 
