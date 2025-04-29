@@ -12,6 +12,8 @@
 
 ![alt text](../help_picture/12_storagebucket12.png)
 
+![alt text](../help_picture/12_storagebucket27.png)
+
 **下载文件/文件夹**
 ![alt text](../help_picture/12_storagebucket13.png)
 
