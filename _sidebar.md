@@ -76,4 +76,4 @@
     * [5、帮助](./manual/14/help.md)
     * [6、设置](./manual/14/set.md)
 *[附录]
-    * [1、计费规则](./manual/appendix/billing_rules.md)
+    * [1、算力和计费](./manual/appendix/billing_rules.md)
