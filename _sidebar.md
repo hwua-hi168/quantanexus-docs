@@ -76,4 +76,5 @@
     * [5、帮助](./manual/14/help.md)
     * [6、设置](./manual/14/set.md)
 *[附录]
-    * [1、算力和计费](./manual/appendix/billing_rules.md)
+    * [1、下载 Hi168 桌面版](./manual/appendix/hi168_DesktopVersion.md)
+    * [2、算力和计费](./manual/appendix/billing_rules.md)
