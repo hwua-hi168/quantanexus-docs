@@ -11,3 +11,7 @@
 
 ![alt text](../help_picture/15_mirrorcentor06.png)
 
+![alt text](../help_picture/15_mirrorcentor07.png)
+
+![alt text](../help_picture/15_mirrorcentor08.png)
+
