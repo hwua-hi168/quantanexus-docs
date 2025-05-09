@@ -75,6 +75,10 @@
     * [4、讨论](./manual/14/discuss.md)
     * [5、帮助](./manual/14/help.md)
     * [6、设置](./manual/14/set.md)
+* [十五、镜像中心](./manual/hi168_MirrorCenter.md)
+    * [1、镜像列表](./manual/15/mirror_list.md)
+    * [2、新建镜像](./manual/15/create_mirror.md)
+    * [3、镜像操作](./manual/15/mirror_operate.md)
 *[附录]
     * [1、下载 Hi168 桌面版](./manual/appendix/hi168_DesktopVersion.md)
     * [2、算力和计费](./manual/appendix/billing_rules.md)
