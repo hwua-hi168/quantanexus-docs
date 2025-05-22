@@ -9,3 +9,5 @@ Hi168平台为了让云端虚拟机和本地环境彻底打通，建立一个VPN
 **<li>本地无需安装虚拟机</li>**
 
 **<li>低配置使用高端集群</li>**
+
+![alt text](./05/cloudinterconnection.png)
