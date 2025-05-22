@@ -20,12 +20,12 @@
 
 **<li>确认创建</li>**
 检查填写的各项信息无误后，点击 “确定” 按钮提交创建任务。系统会根据镜像修改内容大小进行处理，制作时间可能从数秒到数分钟不等。可在 “快照” 列表查看制作进度，制作完成后，前往 “桌面端 -> 我的模板” 文件夹下查看用户应用模板制作结果。
-![alt text](../help_picture/02_myapp08.png)
+![alt text](./myapp08.png)
 
-![alt text](../help_picture/02_myapp09.png)
+![alt text](./myapp09.png)
 
-![alt text](../help_picture/02_myapp10.png)
+![alt text](./myapp10.png)
 
 #### 2、快照创建模板
 同样可以通过快照创建应用模板，除了无需提供模版图片，其它流程和上述是相同的。
-![alt text](../help_picture/02_myapp10-2.png)
+![alt text](./myapp10-2.png)

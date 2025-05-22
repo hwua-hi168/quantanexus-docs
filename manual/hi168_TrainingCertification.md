@@ -34,4 +34,4 @@ Hi168平台提供了计算机软件、新一代信息技术和互联网应用三
 <li>软件测试工程师</li>
 <li>物联网开发工程师</li>
 
-![alt text](./TrainingCertification.png)
+![alt text](./09/trainingcertification.png)
