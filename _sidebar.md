@@ -1,4 +1,8 @@
 
+* [新手快速入门](./manual/hi168_GettingStarted.md)
+    * [1、例子一：部署eNSP应用](./manual/beginner/first_app.md)
+    * [2、例子二：部署Ubuntu应用并安装Web服务](./manual/beginner/second_app.md)
+    * [3、例子三：安装Ubuntu24.04操作系统](./manual/beginner/make_mirrorimage.md)
 * [一、应用中心](./manual/hi168_AppCentor.md)
     * [1、应用列表](./manual/01/app_list.md)
     * [2、应用部署](./manual/01/app_deploy.md)
