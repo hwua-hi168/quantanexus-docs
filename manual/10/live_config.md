@@ -1,3 +1,3 @@
 ### 直播配置
 由于直播采用的是OBS软件，需要在OBS中填写一些直播的配置信息，在直播配置中的信息可以复制到OBS中，具体使用可以参考操作手册。
-![alt text](../help_picture/06_live11.png)
+![alt text](./live11.png)
