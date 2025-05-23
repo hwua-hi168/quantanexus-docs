@@ -29,7 +29,6 @@
 
 ![alt text](./beginner07.png)
 
-
 （4）点击图标打开应用
 
 ![alt text](./beginner08.png)
