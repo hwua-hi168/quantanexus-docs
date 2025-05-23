@@ -87,3 +87,21 @@ Nginx服务的默认Http服务端口是80，我们可以在服务端口中开放
 
 ![alt text](./beginner40.png)
 
+#### 5、给应用创建快照
+我们部署的应用在使用过程中，经常会安装各种软件和数据，这就需要我们定期打快照，便于备份和恢复使用。
+
+（1）从桌面上进入"我的应用"，找到对应的应用。
+
+![alt text](./beginner86.png)
+
+![alt text](./beginner87.png)
+
+（2）创建快照
+
+![alt text](./beginner88.png)
+
+![alt text](./beginner89.png)
+
+快照创建成功后，用户可以删除、回滚快照，也可以使用快照创建应用模板（参考帮助手册中的【二、我的应用】）。
+
+![alt text](./beginner90.png)
