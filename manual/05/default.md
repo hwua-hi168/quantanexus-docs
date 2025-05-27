@@ -1,9 +1,15 @@
 ### 默认方式
 开启云端互联默认会启动一个WireGuard的VPN服务，帮助用户在本地和云端建立一个虚拟的VPN隧道。
 
+<li>两种方式进入云端互联</li>
+
 ![alt text](./cloudinterconnection01.png)
 
+<li>打开云端互联开关（默认已开启）</li>
+
 ![alt text](./cloudinterconnection02.png)
+
+<li>获取云端虚拟机ip（也可以通过服务端口中的网络信息获取），打开本地的命令终端（搜索框输入cmd后打开命令提示符），ping一下云端虚拟机的ip，是否互通。</li>
 
 ![alt text](./cloudinterconnection03.png)
 
