@@ -59,3 +59,22 @@ Hi168下载中心提供了各种操作系统、开发、人工智能、大数据
         <td>5</td><td>办公生活</td><td>办公软件</td><td>待更新</td>
     </tr>
 </table>
+
+## <font color='blue'>下载 Hi168 桌面版</font>
+#### 概述
+用户在使用Hi168平台时，既可以使用浏览器版的Hi168（https://www.hi168.com）, 并可以切换到桌面端风格使用。
+![alt text](./15/downloadcenter01.png)
+
+除了浏览器版的Hi168，用户可以下载Hi168桌面版，直接安装在本地计算机上使用，无需再通过打开浏览器使用Hi168了，如下方式：
+#### 下载入口一：
+![alt text](./15/downloadcenter02.png)
+
+![alt text](./15/downloadcenter03.png)
+
+#### 下载入口二：
+![alt text](./15/downloadcenter04.png)
+
+#### 安装运行：
+安装成功后，在本地计算机桌面上生成一个图标，直接运行登录即可使用。
+
+![alt text](./15/downloadcenter05.png)
