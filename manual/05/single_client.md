@@ -76,6 +76,10 @@ WireGuard提示已连接。
 
 ![alt text](image-14.png)
 
+本地命令终端执行命令"ipconfig"，可以看到多了一块WireGuard的网卡，IP就是之前云端互联分配的客户端地址。
+
+![alt text](image-16.png)
+
 此时就可以ping通云端虚拟机的IP了，表示云端互联成功了。
 
 ![alt text](image-15.png)
