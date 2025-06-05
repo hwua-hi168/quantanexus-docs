@@ -42,7 +42,7 @@
 
 ![alt text](./cloudinterconnection10.png)
 
-（6）WireGuard导入配置文件
+（6）WireGuard导入配置文件(文件名也可以修改，这里按默认文件名)
 
 <li>方式一：点击"从文件导入隧道"。</li>
 

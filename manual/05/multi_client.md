@@ -1,34 +1,62 @@
-###  下载互联工具
-针对较专业人士，可以自行下载安装VPN工具WireGuard进行个性化的配置和使用。<br>
-#### <font color='red'>注意：采用此种方式，就不能采用默认方式开启云端互联，否则会产生冲突。</font>
+###  多客户端
+云端互联可以创建多个客户端，可以是不同的操作系统终端，比如：Ubuntu、CentOS、MacOS，或者其它任何的智能终端，只要在客户端安装WireGuard，和云端打通VPN隧道，就可以实现万物互联。下面我们就以Ubuntu和CentOS作为两个不同的客户端来进行云端互联。
 
-##### 1、官网下载WireGuard
-![alt text](./cloudinterconnection08.png)
+#### 1、准备环境
+（1）首先，我们需要再新建两个客户端，分配两个不同的IP地址，用于Ubuntu和CentOS。新建完毕后，将两个客户端对应的WireGuard配置文件下载到本地，后面要分别上传到Ubuntu和CentOS中。
 
-![alt text](./cloudinterconnection09.png)
-##### 2、安装使用
-（1）点击“详情”按钮，再点击“下载云端互联配置文件”将VPN配置文件下载到本地。
+![alt text](./cloudinterconnection20.png)
 
-![alt text](./cloudinterconnection10.png)
+（2）然后，我们在本地Windows系统中使用VMware启动两个虚拟机，分别安装了Ubuntu和CentOS两种操作系统，这里的环境已经准备好了。
+<li>Ubuntu: 这里以Ubuntu 22.04为例，虚拟机IP：192.168.81.130</li>
 
-![alt text](./cloudinterconnection11.png)
+![alt text](./cloudinterconnection21.png)
 
-（2）双击下载好的安装包“wireguard-installer.exe”，它将自动完成安装。
+<li>CentOS：这里以CentOS 8.5为例，虚拟机IP：192.168.81.129</li>
 
-![alt text](./cloudinterconnection12.png)
+![alt text](./cloudinterconnection22.png)
 
-（3）打开WireGuard软件，点击“从文件导入隧道”。
+（3）为了使用方便，我们利用SSH客户端分别连接到这两个虚拟机，如下。
 
-![alt text](./cloudinterconnection13.png)
+![alt text](./cloudinterconnection23.png)
 
-（4）选择下载好的配置文件，点击“打开”。
+![alt text](./cloudinterconnection24.png)
 
-![alt text](./cloudinterconnection14.png)
+下面我们就来具体介绍一下如何在Ubuntu和CentOS中使用WireGuard。
 
-（5）再点击“连接”，状态将变为“已连接”。
+#### 2、Ubuntu使用WireGuard
+（1）Ubuntu中任何版本安装WireGuard很简单，执行如下命令即可。
 
-![alt text](./cloudinterconnection15.png)
+apt install wireguard -y
 
-![alt text](./cloudinterconnection16.png)
+![alt text](./cloudinterconnection25.png)
 
-这样与云端就建立好了VPN隧道，可以进行云端互联了。
+（2）安装成功后，在/etc目录下面会自动新建一个wireguard目录，然后将之前下载的配置文件（客户端IP：10.255.248.3）上传到/etc/wireguard目录中。
+
+![alt text](./cloudinterconnection26.png)
+
+（3）启动WireGuard连接，执行如下命令。
+
+wg-quick up hi168ns1000c924
+
+![alt text](./cloudinterconnection27.png)
+
+（4）查看WireGuard连接状态，执行如下命令。
+
+wg
+
+![alt text](./cloudinterconnection28.png)
+
+此时，多了一块WireGuard网卡。
+
+![alt text](./cloudinterconnection29.png)
+
+（5）ping一下单客户端中使用的虚拟机IP(10.160.2.100)和分配的客户端911的IP(10.160.2.100)
+
+![alt text](./cloudinterconnection30.png)
+
+![alt text](./cloudinterconnection31.png)
+
+全部可以互通。
+
+#### 3、CentOS使用WireGuard
+
