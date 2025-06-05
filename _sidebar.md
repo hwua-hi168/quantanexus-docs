@@ -86,5 +86,5 @@
     * [4、帮助](./manual/12/help.md)
     * [5、设置](./manual/12/set.md)
 * [十三、费用规则](./manual/hi168_BillingRules.md)
-* [十四、角色规则](./manual/hi168_RoleRules.md)
-* [十五、下载中心](./manual/hi168_DownloadCenter.md)
+<!--* [十四、角色规则](./manual/hi168_RoleRules.md)-->
+* [十四、下载中心](./manual/hi168_DownloadCenter.md)

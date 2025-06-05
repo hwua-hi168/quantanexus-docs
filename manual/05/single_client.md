@@ -72,6 +72,10 @@
 
 ![alt text](./cloudinterconnection16.png)
 
+有接收和发送流量表示已通。
+
+![alt text](./cloudinterconnection16-1.png)
+
 WireGuard提示已连接。
 
 ![alt text](./cloudinterconnection17.png)
@@ -84,6 +88,17 @@ WireGuard提示已连接。
 
 ![alt text](./cloudinterconnection19.png)
 
+#### <font color='red'>3、云端互联不通的问题处理</font>
+在实际的环境使用中，由于每个用户的本地系统情况不同，可能会导致云端互联不通，那么我们可以作如下的处理。
 
+（1）确保关闭本地操作系统的防火墙。
+
+![alt text](./cloudinterconnection19-1.png)
+
+（2）断开并退出WierGuard，重新启动WireGuard连接。
+
+（3）在任务管理器中彻底杀掉WireGuard进程，然后重新启动WireGuard连接。
+
+![alt text](./cloudinterconnection19-2.png)
 
 
