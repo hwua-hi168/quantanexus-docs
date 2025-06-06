@@ -116,4 +116,53 @@
     yum install kernel-plus wireguard-tools -y
     reboot
 
+#### 4、MacOS使用WireGuard
+（1）我们准备一个MacOS，并打开命令终端，这里通过SSH连接到MacOS，如图。
 
+![alt text](./cloudinterconnection40.png)
+
+![alt text](./cloudinterconnection41.png)
+
+（2）在MacOS中通过如下命令安装WireGuard。
+
+    brew install wireguard-tools
+
+![alt text](./cloudinterconnection42.png)
+
+（3）WireGuard安装成功后，在/usr/local/etc目录下面会自动新建一个wireguard目录。
+
+![alt text](./cloudinterconnection43.png)
+
+（4）在云端互联页面中新建一个客户端940（10.255.248.5），并将此客户端的配置文件下载到本地，同时上传到MacOS的/usr/local/etc/wireguard目录下。
+
+![alt text](./cloudinterconnection44.png)
+
+![alt text](./cloudinterconnection45.png)
+
+（5）启动WireGuard连接，执行如下命令（需要输入root密码）。
+
+    wg-quick up hi168ns1000c940
+
+![alt text](./cloudinterconnection46.png)
+
+（6）查看WireGuard连接状态，执行如下命令。
+
+    sudo wg
+
+![alt text](./cloudinterconnection47.png)
+
+此时，多了一块WireGuard网卡。
+
+![alt text](./cloudinterconnection48.png)
+
+（7）ping一下单客户端中使用的虚拟机IP(10.160.2.100)、分配的客户端911的IP(10.255.248.2)、客户端924的IP(10.255.248.3)和客户端925的IP(10.255.248.4)
+
+![alt text](./cloudinterconnection49.png)
+
+![alt text](./cloudinterconnection50.png)
+
+![alt text](./cloudinterconnection51.png)
+
+![alt text](./cloudinterconnection52.png)
+
+全部可以互通。
