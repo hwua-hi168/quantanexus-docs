@@ -88,3 +88,4 @@
 * [十三、费用规则](./manual/hi168_BillingRules.md)
 <!--* [十四、角色规则](./manual/hi168_RoleRules.md)-->
 * [十四、下载中心](./manual/hi168_DownloadCenter.md)
+* [十五、客户信息安全管理](./manual/hi168_InformationSafety.md)

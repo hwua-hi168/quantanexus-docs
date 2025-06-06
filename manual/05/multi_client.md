@@ -26,7 +26,7 @@
 #### 2、Ubuntu使用WireGuard
 （1）Ubuntu中任何版本安装WireGuard很简单，执行如下命令即可。
 
-apt install wireguard -y
+    apt install wireguard -y
 
 ![alt text](./cloudinterconnection25.png)
 
@@ -36,13 +36,13 @@ apt install wireguard -y
 
 （3）启动WireGuard连接，执行如下命令。
 
-wg-quick up hi168ns1000c924
+    wg-quick up hi168ns1000c924
 
 ![alt text](./cloudinterconnection27.png)
 
 （4）查看WireGuard连接状态，执行如下命令。
 
-wg
+    wg
 
 ![alt text](./cloudinterconnection28.png)
 
@@ -61,15 +61,11 @@ wg
 #### 3、CentOS使用WireGuard
 （1）由于WireGuard在CentOS的安装，对于内核版本比较高，CentOS 8.5及以下的内核版本比较低，需要额外安装内核的升级组件，安装命令如下。
 
-yum install yum-utils epel-release -y
-
-yum-config-manager --setopt=centosplus.includepkgs="kernel-plus, kernel-plus-*" --setopt=centosplus.enabled=1 --save
-
-sed -e 's/^DEFAULTKERNEL=kernel-core$/DEFAULTKERNEL=kernel-plus-core/' -i /etc/sysconfig/kernel
-
-yum install kernel-plus wireguard-tools -y
-
-reboot
+    yum install yum-utils epel-release -y
+    yum-config-manager --setopt=centosplus.includepkgs="kernel-plus, kernel-plus-*" --setopt=centosplus.enabled=1 --save
+    sed -e 's/^DEFAULTKERNEL=kernel-core$/DEFAULTKERNEL=kernel-plus-core/' -i /etc/sysconfig/kernel
+    yum install kernel-plus wireguard-tools -y
+    reboot
 
 （2）安装完毕要重启一下虚拟机，我们按此命令执行即可。安装成功后在/etc目录下自动生成一个wireguard的目录。
 
@@ -81,13 +77,13 @@ reboot
 
 （4）启动WireGuard连接，执行如下命令。
 
-wg-quick up hi168ns1000c925
+    wg-quick up hi168ns1000c925
 
 ![alt text](./cloudinterconnection34.png)
 
 （5）查看WireGuard连接状态，执行如下命令。
 
-wg
+    wg
 
 ![alt text](./cloudinterconnection35.png)
 
@@ -95,7 +91,7 @@ wg
 
 ![alt text](./cloudinterconnection36.png)
 
-（6）ping一下单客户端中使用的虚拟机IP(10.160.2.100)和分配的客户端911的IP(10.255.248.2)客户端924(10.255.248.3)
+（6）ping一下单客户端中使用的虚拟机IP(10.160.2.100)和分配的客户端911的IP(10.255.248.2)及客户端924的IP(10.255.248.3)
 
 ![alt text](./cloudinterconnection37.png)
 
@@ -109,20 +105,15 @@ wg
 
 <li>在CentOS Stream 9及以后的版本中安装WireGuard</li>
 
-yum install epel-release -y
-
-yum install wireguard-tools -y
+    yum install epel-release -y
+    yum install wireguard-tools -y
 
 <li>在CentOS 7中安装WireGuard</li>
 
-yum install yum-utils epel-release -y
-
-yum-config-manager --setopt=centosplus.includepkgs=kernel-plus --enablerepo=centosplus --save
-
-sed -e 's/^DEFAULTKERNEL=kernel$/DEFAULTKERNEL=kernel-plus/' -i /etc/sysconfig/kernel
-
-yum install kernel-plus wireguard-tools -y
-
-reboot
+    yum install yum-utils epel-release -y
+    yum-config-manager --setopt=centosplus.includepkgs=kernel-plus --enablerepo=centosplus --save
+    sed -e 's/^DEFAULTKERNEL=kernel$/DEFAULTKERNEL=kernel-plus/' -i /etc/sysconfig/kernel
+    yum install kernel-plus wireguard-tools -y
+    reboot
 
 
