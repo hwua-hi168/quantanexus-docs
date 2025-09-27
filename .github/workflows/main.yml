@@ -1,0 +1,10 @@
+name: Triggered by Gitee
+on:
+  repository_dispatch:
+    types: [gitee-sync]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "收到 Gitee 的 webhook 触发"
