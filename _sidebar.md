@@ -14,7 +14,7 @@
     * [4、创建模板](./manual/02/create_template.md)
     * [5、删除应用](./manual/02/delete_app.md)
     * [6、添加应用](./manual/02/add_app.md)
-* [三、我的模板](./manual/hi168_MyTemplate.md)
+* [三、应用模板](./manual/hi168_MyTemplate.md)
     * [1、模板列表](./manual/03/template_list.md)
     * [2、编辑模版](./manual/03/edit_template.md)
     * [3、发布模板](./manual/03/publish_template.md)
