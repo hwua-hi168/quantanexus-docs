@@ -1,11 +1,3 @@
-# 深算工场-docs
-
-#### 深算工场介绍
-![alt text](quantanexus-logo.png)
-一个海文自建的云计算平台,提供桌面版功能，将开发、交付、云应用等板块以APP的形式嵌入桌面版页面。深算工场是基于轻量级容器和虚拟机技术混合架构模式的开放式云平台，支持多种AI和大数据框架，支持以插件的方式加入平台，开箱即用，支持Nvidia全系GPU，支持GPU拆分共享教学，多云无限扩容，可以跟高校扩容多个节点，实现基础设施资源的智能化调度。
-
-深算工场2B端，主要应用在高校的大数据、人工智能、云计算、区块链、开发方向的相关专业和课程，可以采用私有云部署和公有云服务两种方式，平台同时也提供认证、实训、竞赛等方面的服务。 深算工场2C端，主要针对社会上的计算机相关使用人员，包括：大数据、人工智能、云计算、网络运维等方面，提供云数据库、云操作系统、容器和虚拟机、各种APP应用的PaaS和SaaS服务。
-![alt text](quantanexus-framework.png)
 
 * [新手快速入门](./manual/hi168_GettingStarted.md)
     * [1、案例一：部署eNSP应用](./manual/beginner/first_app.md)
@@ -99,5 +91,3 @@
 * [十四、费用规则](./manual/hi168_BillingRules.md)
 * [十五、下载中心](./manual/hi168_DownloadCenter.md)
 * [十六、客户信息安全管理](./manual/hi168_InformationSafety.md)
-
-
