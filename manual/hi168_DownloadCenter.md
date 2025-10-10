@@ -63,18 +63,18 @@
 ## <font color='blue'>下载 深算工场 桌面版</font>
 #### 概述
 用户在使用深算工场时，既可以使用公有云版的深算工场（https://www.hi168.com）, 并可以切换到桌面端风格使用。
-![alt text](./16/downloadcenter01.png)
+![alt text](./14/downloadcenter01.png)
 
 除了公有云版的深算工场，用户可以下载深算工场桌面版，直接安装在本地计算机上使用，无需再通过打开浏览器使用深算工场了，如下方式：
 #### 下载入口一：
-![alt text](./16/downloadcenter02.png)
+![alt text](./14/downloadcenter02.png)
 
-![alt text](./16/downloadcenter03.png)
+![alt text](./14/downloadcenter03.png)
 
 #### 下载入口二：
-![alt text](./16/downloadcenter04.png)
+![alt text](./14/downloadcenter04.png)
 
 #### 安装运行：
 安装成功后，在本地计算机桌面上生成一个图标，直接运行登录即可使用。
 
-![alt text](./16/downloadcenter05.png)
+![alt text](./14/downloadcenter05.png)

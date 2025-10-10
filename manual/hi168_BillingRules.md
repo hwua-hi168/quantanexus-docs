@@ -116,7 +116,7 @@ TPU（张量处理器）：谷歌专为机器学习优化的芯片，加速矩�
 
 ##### <font color='red'>注：上述表中的算力值核算成人民币为：1个算力值等于1元</font>
 这里以应用模板"云版Ubuntu 22.04"为例部署应用：
-![alt text](./14/billingrules01.png)
+![alt text](./13/billingrules01.png)
 <li>CPU(CPU-2.0G): 4 核</li>
 <li>RAM(DDR4-3200MHz): 8192 MB</li>
 <li>Disk(高速云盘): 100 GB</li>

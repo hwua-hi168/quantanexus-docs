@@ -34,4 +34,4 @@
 <li>软件测试工程师</li>
 <li>物联网开发工程师</li>
 
-![alt text](./09/trainingcertification.png)
+![alt text](./08/trainingcertification.png)
