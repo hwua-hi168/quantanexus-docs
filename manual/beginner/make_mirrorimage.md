@@ -7,10 +7,6 @@ Ubuntu24.04 cloud image地址，可以从cloud-images.ubuntu.com官网上下载�
 
 在深算工场平台上提供了URL地址方式下载，我们可以使用镜像中心下载安装。深算工场的镜像中心，类似于阿里云镜像站，将市面上主流的操作系统镜像（iso、img、qcow2）都已经上传上去了，用户可以直接使用。
 
-（1）镜像中心中的Ubuntu24.04 cloud image
-
-深算工场的镜像中心，类似于阿里云镜像站，将市面上主流的操作系统镜像（iso、img、qcow2）都已经上传上去了，用户可以直接复制使用。
-
 ![alt text](./beginner41.png)
 
 通过关键字搜索到Ubuntu24.04 cloud image。
