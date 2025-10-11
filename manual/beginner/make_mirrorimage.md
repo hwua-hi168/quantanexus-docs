@@ -5,7 +5,7 @@
 Ubuntu24.04 cloud image地址，可以从cloud-images.ubuntu.com官网上下载，地址：https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img，
 由于是国外网站，受限于管控不太容易下载，也可以到清华、中科大、阿里云的开源软件镜像站上面去下载。
 
-在深算工场平台上提供了URL地址和镜像中心复制两种方式下载，我们可以直接使用通过镜像中心复制下载安装。
+在深算工场平台上提供了URL地址方式下载，我们可以使用镜像中心下载安装。深算工场的镜像中心，类似于阿里云镜像站，将市面上主流的操作系统镜像（iso、img、qcow2）都已经上传上去了，用户可以直接使用。
 
 （1）镜像中心中的Ubuntu24.04 cloud image
 
@@ -17,84 +17,41 @@ Ubuntu24.04 cloud image地址，可以从cloud-images.ubuntu.com官网上下载�
 
 ![alt text](./beginner42.png)
 
-查看镜像详情，使用该镜像需要在"我的镜像"中去创建使用。
-
-![alt text](./beginner43.png)
-
-
-（2）在"我的镜像"中，通过镜像中心复制方式进行下载
-
-从桌面上进入到"我的镜像"。
-
-![alt text](./beginner44.png)
-
-点击右上角的"新建虚拟机镜像"。
-
-![alt text](./beginner45.png)
-
-填写虚拟机镜像名称、虚拟机镜像代号、虚拟机镜像描述信息。
-
-![alt text](./beginner46.png)
-
-虚拟机镜像来源，可以选择"按指定URL地址下载"（这个例子中不用此方式），比如，来自清华镜像源的地址：https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/noble/current/noble-server-cloudimg-amd64.img。
-
-![alt text](./beginner47.png)
-
-我们这个例子中因为在镜像中心已经有相关的镜像文件了，所以采用"从镜像中心复制"，这样就不用再次从网上去下载了，速度更快。
-
-![alt text](./beginner48.png)
-
-然后点击创建即可。
-
-![alt text](./beginner49.png)
-
-创建稍微等一会儿即可成功，然后跳到一个如下的界面，此时复制成功，就可以进行创建应用模板安装系统了。
-
-![alt text](./beginner50.png)
-
-#### 2、创建应用模板
-（1）复制成功后，我们就可以创建应用模板了，点击界面上的"创建应用模板即可。
+#### 2、制作应用模板
+（1）我们可以基于Ubuntu24.04 cloud image来制作应用模板，安装Ubuntu24.04系统了，点击界面上的"制作应用模板"即可。
 
 ![alt text](./beginner51.png)
 
-（2）填入创建应用模板的相关信息。
+（2）填入应用模板的相关信息，其它按默认设置，设置完毕后，点击"创建"即可。
 
 ![alt text](./beginner52.png)
 
-（3）设置完毕后，点击创建。
-
 ![alt text](./beginner53.png)
 
-（4）成功创建应用模板。
+（3）进入桌面中心的"应用模板"模块，可以看到创建成功的应用模板。
 
 ![alt text](./beginner54.png)
 
 #### 3、部署应用
 创建应用模板成功后，我们就可以采用此模板部署一个应用，开始安装Ubuntu24.04的操作系统了。
 
-（1）点击"详情"，进入部署。
-
-在此页面中，我们也可以再次修改相关信息，然后保存。
+（1）点击"部署"，开始部署应用。
 
 ![alt text](./beginner55.png)
 
-（2）点击右上角的"部署"，开始部署应用。
-
-![alt text](./beginner56.png)
-
-（3）设置应用名称和算力服务，点击"确定"开始部署。
+（2）设置应用名称和算力服务，点击"确定"开始部署。
 
 ![alt text](./beginner57.png)
 
-（4）正在部署中
+（3）正在部署中
 
 ![alt text](./beginner58.png)
 
-（5）应用部署成功
+（4）应用部署成功
 
 ![alt text](./beginner59.png)
 
-（6）点击打开应用，我们发现已经安装完毕进入到登录界面，这里是因为采用cloud image这个云版的Ubuntu，这是一个已经安装好的成型操作系统，它会使用cloud-init进行参数初始化，包括登录用户名、密码，网络、其它初始化脚本都可以，只要在对应的yaml文件中配置即可，深算工场已经做了相应的设置，用户只要直接使用即可。
+（5）点击打开应用，我们发现已经安装完毕进入到登录界面，这里是因为采用cloud image这个云版的Ubuntu，这是一个已经安装好的成型操作系统，它会使用cloud-init进行参数初始化，包括登录用户名、密码，网络、其它初始化脚本都可以，只要在对应的yaml文件中配置即可，深算工场已经做了相应的设置，用户只要直接使用即可。
 这里登录的初始用户密码是: hwua/hwua123456
 
 ![alt text](./beginner60.png)
