@@ -94,3 +94,14 @@
 * [十三、费用规则](./manual/hi168_BillingRules.md)
 * [十四、下载中心](./manual/hi168_DownloadCenter.md)
 * [十五、客户信息安全管理](./manual/hi168_InformationSafety.md)
+
+
+#### 深算工场后台配置
+* [一、算力点管理及算力模板配置](./admin-manual/computing.md)
+    * [1、算力模板](admin-manual/computing-power/compute-template.md)
+    * [2、模板选项](admin-manual/computing-power/template-options.md)
+    * [3、算力配置记录](admin-manual/computing-power/compute-configuration-record.md)
+    * [4、用户算力点](admin-manual/computing-power/user-compute-points.md)
+    * [5、算力消耗](admin-manual/computing-power/compute-consumption.md)
+    * [6、变动明细](admin-manual/computing-power/change-detail.md)
+    * [7、增加明细](admin-manual/computing-power/addition-detail.md)
