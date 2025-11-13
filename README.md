@@ -105,6 +105,7 @@
     * [5、算力消耗](admin-manual/computing-power/compute-consumption.md)
     * [6、变动明细](admin-manual/computing-power/change-detail.md)
     * [7、增加明细](admin-manual/computing-power/addition-detail.md)
+
 * [二、s3存储管理](admin-manual/s3.md)
     * [1、oss服务账号管理](admin-manual/s3-storage/account-management.md)
     * [2、s3存储管理](admin-manual/s3-storage/s3-storage-management.md)
@@ -114,3 +115,19 @@
     * [6、存储空间调整](admin-manual/s3-storage/space-adjustment.md)
     * [7、挂载目录路径记录](admin-manual/s3-storage/mounted-directory-logs.md)
     * [8、任务记录](admin-manual/s3-storage/task-records.md)
+    
+* [三、系统-可用区](admin-manual/system-availability-zone.md)
+    * [1、可用区](admin-manual/system-zone/availability-zone.md)
+    * [2、用户默认可用区](admin-manual/system-zone/default-availability-zone.md)
+    * [3、gpu管理器](admin-manual/system-zone/gpu-manager.md)
+    * [4、集群节点](admin-manual/system-zone/cluster-nodes.md)
+    * [5、容器镜像节点](admin-manual/system-zone/container-image-nodes.md)
+    * [6、gpu资源](admin-manual/system-zone/gpu-resources.md)
+    * [7、环境保存](admin-manual/system-zone/save-environment.md)
+    * [8、用户环境保存](admin-manual/system-zone/user-environment-save.md)
+    * [9、集群标签](admin-manual/system-zone/cluster-tags.md)
+    * [10、集群标签值](admin-manual/system-zone/cluster-tag-values.md)
+    * [11、节点亲和性标签](admin-manual/system-zone/node-affinity-tags.md)
+
+
+
