@@ -105,7 +105,6 @@
     * [5、算力消耗](admin-manual/computing-power/compute-consumption.md)
     * [6、变动明细](admin-manual/computing-power/change-detail.md)
     * [7、增加明细](admin-manual/computing-power/addition-detail.md)
-
 * [二、s3存储管理](admin-manual/s3.md)
     * [1、oss服务账号管理](admin-manual/s3-storage/account-management.md)
     * [2、s3存储管理](admin-manual/s3-storage/s3-storage-management.md)
@@ -114,8 +113,7 @@
     * [5、实验环境挂载OSS](admin-manual/s3-storage/container-mounting.md)
     * [6、存储空间调整](admin-manual/s3-storage/space-adjustment.md)
     * [7、挂载目录路径记录](admin-manual/s3-storage/mounted-directory-logs.md)
-    * [8、任务记录](admin-manual/s3-storage/task-records.md)
-    
+    * [8、任务记录](admin-manual/s3-storage/task-records.md)   
 * [三、系统-可用区](admin-manual/system-availability-zone.md)
     * [1、可用区](admin-manual/system-zone/availability-zone.md)
     * [2、用户默认可用区](admin-manual/system-zone/default-availability-zone.md)
