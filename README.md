@@ -151,5 +151,10 @@
    * [6、云端互联服务器](admin-manual/network/cloud-interconnect.md)
    * [7、云端互联客户端](admin-manual/network/client.md)
    * [8、云端互联账号](admin-manual/network/ros-account.md)
+* [八、服务器管理](admin-manual/server-management/hardware-value.md)
+   * [1、硬件参数值](admin-manual/server-management/hardware-value.md)
+   * [2、硬件参数](admin-manual/server-management/hardware-params.md)
+   * [3、硬件](admin-manual/server-management/hardware.md)
+
 
 
