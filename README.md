@@ -126,6 +126,20 @@
     * [9、集群标签](admin-manual/system-zone/cluster-tags.md)
     * [10、集群标签值](admin-manual/system-zone/cluster-tag-values.md)
     * [11、节点亲和性标签](admin-manual/system-zone/node-affinity-tags.md)
-
-
+* [四、应用](admin-manual/app.md)
+    * [1、应用部署](admin-manual/app/app_deploy.md)
+    * [2、应用环境](admin-manual/app/app_environment.md)
+    * [3、应用实施](admin-manual/app/app_implement.md)
+    * [4、应用模板](<admin-manual/app/public _template.md>)
+    * [5、用户应用模板](admin-manual/app/user_template.md)
+    * [6、应用快照](admin-manual/app/app_snapshot.md)
+    * [7、应用类别](admin-manual/app/app_category.md)
+* [五、命名空间](admin-manual/namespace/namespace.md)
+    * [1、命名空间](admin-manual/namespace/namespace.md)
+* [六、存储](admin-manual/storage/type.md)
+   * [1、存储类型](admin-manual/storage/type.md)
+   * [2、存储快照类型](admin-manual/storage/snapshot.md)
+   * [3、存储卷挂载](admin-manual/storage/volume-mount.md)
+   * [4、存储管理器](admin-manual/storage/storage-manager.md)
+   * [5、存储区域](admin-manual/storage/storage-area.md)
 
