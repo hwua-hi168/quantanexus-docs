@@ -142,4 +142,14 @@
    * [3、存储卷挂载](admin-manual/storage/volume-mount.md)
    * [4、存储管理器](admin-manual/storage/storage-manager.md)
    * [5、存储区域](admin-manual/storage/storage-area.md)
+* [七、网络](admin-manual/network/ip-record.md)
+   * [1、ip段](admin-manual/network/ip-segment.md)
+   * [2、ip记录](admin-manual/network/ip-record.md) 
+   * [3、LB服务IP地址池](admin-manual/network/lb-address.md)
+   * [4、LB服务端口号](admin-manual/network/lb-service.md)
+   * [5、LB服务共享Key](admin-manual/network/lb-shared-key.md)
+   * [6、云端互联服务器](admin-manual/network/cloud-interconnect.md)
+   * [7、云端互联客户端](admin-manual/network/client.md)
+   * [8、云端互联账号](admin-manual/network/ros-account.md)
+
 
