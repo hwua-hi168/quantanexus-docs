@@ -155,6 +155,22 @@
    * [1、硬件参数值](admin-manual/server-management/hardware-value.md)
    * [2、硬件参数](admin-manual/server-management/hardware-params.md)
    * [3、硬件](admin-manual/server-management/hardware.md)
+* [九、镜像仓库](admin-manual/image-registry/repository.md)
+   * [1、镜像仓库](admin-manual/image-registry/repository.md)
+   * [2、镜像加速仓库](admin-manual/image-registry/image-acceleration.md)
+   * [3、公共容器仓库](admin-manual/image-registry/public--image.md)
+   * [4、公共虚拟机镜像](admin-manual/image-registry/public-vm-image.md)
+   * [5、用户容器镜像](admin-manual/image-registry/user-image.md)
+   * [6、用户虚拟机镜像](admin-manual/image-registry/user-vm-image.md)
+   * [7、仓库类型](admin-manual/image-registry/repo-type.md)
+   * [8、仓库地址](admin-manual/image-registry/repo-address.md)
+   * [9、仓库版本](admin-manual/image-registry/repo-version.md)
+
+
+
+
+
+
 
 
 
