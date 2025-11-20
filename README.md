@@ -165,8 +165,13 @@
    * [7、仓库类型](admin-manual/image-registry/repo-type.md)
    * [8、仓库地址](admin-manual/image-registry/repo-address.md)
    * [9、仓库版本](admin-manual/image-registry/repo-version.md)
-
-
+* [十、资源角色](admin-manual/resource-role/user-role.md)
+   * [1、用户促销](admin-manual/resource-role/user-role.md)
+   * [2、用户使用资源](admin-manual/resource-role/user-resources.md)
+   * [3、用户角色](admin-manual/resource-role/name.md)
+   * [4、促销标签](admin-manual/resource-role/label.md)
+   * [5、促销规则](admin-manual/resource-role/rule.md)
+   * [6、角色资源限制](admin-manual/resource-role/restriction.md)
 
 
 
