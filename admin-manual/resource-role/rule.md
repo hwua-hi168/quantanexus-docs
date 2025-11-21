@@ -21,7 +21,7 @@
 
 ![alt text](image-15.png)
 
-## 4、审计信息
+## 4、审计信息与更新记录
 Created by/Created on/Last Updated by/Last Updated on：记录规则的创建、修改信息，实现活动策略的可追溯。
 
 ![alt text](image-16.png)

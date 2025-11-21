@@ -13,7 +13,7 @@
 
 ![alt text](image-8.png)
 
-## 3、审计信息
+## 3、审计与更新记录
 Created by/Created on/Last Updated by/Last Updated on：记录角色的创建、修改信息，实现角色策略的可追溯。
 
 ![alt text](image-9.png)
