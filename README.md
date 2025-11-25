@@ -172,10 +172,19 @@
    * [4、促销标签](admin-manual/resource-role/label.md)
    * [5、促销规则](admin-manual/resource-role/rule.md)
    * [6、角色资源限制](admin-manual/resource-role/restriction.md)
-
-
-
-
-
-
-
+* [十一、课程](<admin-manual/course management/course.md>)
+   * [1、课程管理](<admin-manual/course management/course.md>)
+   * [2、课程历史记录](<admin-manual/course management/course-record.md>)
+   * [3、视频库](<admin-manual/course management/course-library.md>)
+   * [4、学员视频观看表](<admin-manual/course management/studen-table.md>)
+   * [5、课程类型](<admin-manual/course management/course-type.md>)
+   * [6、课程分类](<admin-manual/course management/course-category.md>)
+   * [7、课程评论](<admin-manual/course management/course-comment.md>)
+   * [8、培训评论](<admin-manual/course management/training-comment.md>)
+   * [9、举手提问](<admin-manual/course management/raise-question.md>)
+   * [10、课程用户学习状态统计](<admin-manual/course management/course-statistics.md>)
+   * [11、直播签到](<admin-manual/course management/livesign-in.md>)
+   * [12、需求管理](<admin-manual/course management/demand.md>)
+   * [13、班级课程](<admin-manual/course management/class-courses.md>)
+   * [14、直播统计](<admin-manual/course management/live-stream.md>)
+   * [15、直播培训标签](<admin-manual/course management/live-sign.md>)
