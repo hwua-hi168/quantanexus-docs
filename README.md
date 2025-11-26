@@ -188,3 +188,29 @@
    * [13、班级课程](<admin-manual/course management/class-courses.md>)
    * [14、直播统计](<admin-manual/course management/live-stream.md>)
    * [15、直播培训标签](<admin-manual/course management/live-sign.md>)
+* [十二、实训管理](admin-manual/practical-training/practical-training.md)
+   * [1、实训管理](admin-manual/practical-training/practical-training.md)
+   * [2、实训学生管理](admin-manual/practical-training/student-management.md)
+   * [3、实训资源管理](admin-manual/practical-training/resource-management.md)
+   * [4、实训任务管理](admin-manual/practical-training/task-management.md)
+   * [5、实训任务详情](admin-manual/practical-training/task-details.md)
+* [十三、教务管理](admin-manual/academic-management/course-plan.md)
+   * [1、开课计划](admin-manual/academic-management/course-plan.md)
+   * [2、学期设置](admin-manual/academic-management/semester.md)
+   * [3、周设置](admin-manual/academic-management/weekly-settings.md)
+   * [4、课时设置](admin-manual/academic-management/period-settings.md)
+   * [5、学年](admin-manual/academic-management/academic-year.md)
+   * [6、人才方案制定](admin-manual/academic-management/talent-plan.md)
+   * [7、课程设置](admin-manual/academic-management/course-settings.md)
+   * [8、招生对象](admin-manual/academic-management/admission-targets.md)
+   * [9、培养体系](admin-manual/academic-management/cultivation-system.md)
+   * [10、选修课程上课计划](admin-manual/academic-management/elective-courses.md)
+
+
+
+
+
+
+
+
+
