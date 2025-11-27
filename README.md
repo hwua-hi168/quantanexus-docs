@@ -208,12 +208,19 @@
    * [8、招生对象](admin-manual/academic-management/admission-targets.md)
    * [9、培养体系](admin-manual/academic-management/cultivation-system.md)
    * [10、选修课程上课计划](admin-manual/academic-management/elective-courses.md)
-
-
-
-
-
-
-
-
-
+   * [11、专业](admin-manual/academic-management/major.md)
+   * [12、专业大类](admin-manual/academic-management/major-category.md)
+   * [13、专业小类](admin-manual/academic-management/major-subcategory.md)
+   * [14、专业方向](admin-manual/academic-management/major-direction.md)
+   * [15、课程设置](admin-manual/academic-management/course-settings.md)
+   * [16、课程类别](admin-manual/academic-management/course-category.md)
+   * [17、课程类型](admin-manual/academic-management/course-type.md)
+   * [18、考核方式](admin-manual/academic-management/assessment-method.md)
+   * [19、教室](admin-manual/academic-management/classroom.md)
+   * [20、教研活动](admin-manual/academic-management/teaching-lectures.md)
+   * [21、进修情况](admin-manual/academic-management/records.md)
+   * [22、学术讲座](admin-manual/academic-management/academic-lectures.md)
+   * [23、学术笔记](admin-manual/academic-management/academic-notes.md)
+   * [24、文章发表](admin-manual/academic-management/article.md)
+   * [25、科研成果](admin-manual/academic-management/research.md)
+   * [26、科研成果明细](admin-manual/academic-management/research-details.md)
