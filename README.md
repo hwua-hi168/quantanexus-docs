@@ -244,4 +244,4 @@
    * [17、笔记标签](admin-manual/AI/notebook/tags.md)
    * [18、笔记评论](admin-manual/AI/notebook/comment.md)
 * [十五、设置](admin-manual/settings/user.md)
-   * [1、用户-批量学生开通账号](admin-manual/settings/user.md)
+   * [1、用户-批量开通账号](admin-manual/settings/user.md)
