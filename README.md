@@ -245,3 +245,7 @@
    * [18、笔记评论](admin-manual/AI/notebook/comment.md)
 * [十五、设置](admin-manual/settings/user.md)
    * [1、用户-批量开通账号](admin-manual/settings/user.md)
+* [十六、用户中心](admin-manual/system-config/user-center.md)
+   * [1、用户中心](admin-manual/system-config/user-center.md)
+   * [2、用户子账号](admin-manual/system-config/user-sub.md)
+   * [3、系统参数](admin-manual/system-config/system_parameters.md)
